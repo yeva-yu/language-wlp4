@@ -1,0 +1,15 @@
+{
+  "name": "language-wlp4",
+  "version": "0.0.0",
+  "description": "Basic syntax highlighting for WLP4",
+  "keywords": [
+    "language",
+    "grammar",
+    "wlp4"
+  ],
+  "repository": "https://github.com/atom/language-wlp4",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

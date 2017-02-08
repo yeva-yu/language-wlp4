@@ -1,0 +1,52 @@
+'scopeName': 'source.wlp4'
+'name': 'WLP4'
+'fileTypes': [
+  'wlp4'
+  'wlpppp'
+]
+'patterns': [
+  {
+    'begin': '//'
+    'beginCaptures':
+      '0':
+        'name': 'comment.line.wlp4'
+    'end': '$'
+    'name': 'comment.line.wlp4'
+  }
+  {
+    'match': '&|==|!=|<|<=|>=|\\+|-|\\*|/|%|,'
+    'name': 'keyword.operator.wlp4'
+  }
+  {
+    'match': '\\b(int|int\\*)\\b'
+    'name': 'keyword.type.int.wlp4'
+  }
+  {
+    'match': '\\b(new|delete(\\[\\])?)\\b'
+    'name': 'keyword.operator.new.wlp4'
+  }
+  {
+    'match': '\\b(if|else|while|return)\\b'
+    'name': 'keyword.control.wlp4'
+  }
+  {
+    'match': '\\b([a-zA-Z][a-zA-Z0-9]*)\\s*(?=\\()'
+    'name': 'entity.name.function.wlp4'
+  }
+  {
+    'match': '\\b(println|wain)\\s*(?=\\()'
+    'name': 'support.function.wlp4'
+  }
+  {
+    'match': '[\\(\\)\\{\\}\\[\\]]'
+    'name': 'bracket.parenthesis.wlp4'
+  }
+  {
+    'match': '\\b(NULL)\\b'
+    'name': 'constant.null.wlp4'
+  }
+  {
+    'match': '\\b(\\d+)\\b'
+    'name': 'constant.number.wlp4'
+  }
+]
