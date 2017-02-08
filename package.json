@@ -7,7 +7,7 @@
     "grammar",
     "wlp4"
   ],
-  "repository": "https://github.com/atom/language-wlp4",
+  "repository": "https://github.com/yeva-yu/language-wlp4",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
