@@ -14,16 +14,16 @@
     'name': 'comment.line.wlp4'
   }
   {
+    'match': '\\b(new|delete(\\[\\])?)\\b'
+    'name': 'keyword.other.wlp4'
+  }
+  {
     'match': '&|==|!=|<|<=|>=|\\+|-|\\*|/|%|,'
-    'name': 'keyword.operator.wlp4'
+    'name': 'keyword.other.wlp4'
   }
   {
     'match': '\\b(int|int\\*)\\b'
     'name': 'keyword.type.int.wlp4'
-  }
-  {
-    'match': '\\b(new|delete(\\[\\])?)\\b'
-    'name': 'keyword.operator.new.wlp4'
   }
   {
     'match': '\\b(if|else|while|return)\\b'
